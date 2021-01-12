@@ -125,3 +125,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+SWAGGER_SETTINGS = {
+    'LOGIN_URL': '/admin/login',
+    'LOGOUT_URL': '/admin/logout',
+}
